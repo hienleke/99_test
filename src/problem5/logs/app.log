@@ -1,0 +1,27 @@
+[2025-07-18T09:59:41.175] [INFO] default - Sample data initialized.
+[2025-07-18T09:59:41.199] [INFO] default - Server running on port 3000
+[2025-07-18T10:34:59.546] [ERROR] default - ::ffff:172.19.0.1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+[2025-07-18T10:35:07.195] [INFO] default - ::ffff:172.19.0.1 - - "GET /items HTTP/1.1" 200 297 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+[2025-07-18T10:35:08.549] [ERROR] default - ::ffff:172.19.0.1 - - "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/items" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+[2025-07-18T10:35:18.246] [INFO] default - ::ffff:172.19.0.1 - - "GET /items/1 HTTP/1.1" 200 148 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+[2025-07-18T10:38:46.022] [INFO] default - ::ffff:172.19.0.1 - - "GET /items HTTP/1.1" 200 297 "" "undefined"
+[2025-07-18T10:39:36.973] [INFO] default - ::ffff:172.19.0.1 - - "POST /items HTTP/1.1" 201 150 "" "undefined"
+[2025-07-18T10:39:44.811] [INFO] default - ::ffff:172.19.0.1 - - "GET /items HTTP/1.1" 200 448 "" "undefined"
+[2025-07-18T10:40:00.993] [INFO] default - ::ffff:172.19.0.1 - - "PUT /items/3 HTTP/1.1" 200 156 "" "undefined"
+[2025-07-18T10:40:05.911] [INFO] default - ::ffff:172.19.0.1 - - "GET /items HTTP/1.1" 200 454 "" "undefined"
+[2025-07-18T10:40:13.959] [INFO] default - ::ffff:172.19.0.1 - - "DELETE /items/2 HTTP/1.1" 200 26 "" "undefined"
+[2025-07-18T10:40:17.229] [ERROR] default - ::ffff:172.19.0.1 - - "DELETE /items HTTP/1.1" 404 147 "" "undefined"
+[2025-07-18T10:40:21.638] [INFO] default - ::ffff:172.19.0.1 - - "GET /items HTTP/1.1" 200 307 "" "undefined"
+[2025-07-18T11:37:42.579] [INFO] default - Server running on port 3000
+[2025-07-18T12:58:12.149] [ERROR] default - ::ffff:172.19.0.1 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+[2025-07-18T14:07:17.196] [INFO] default - Server running on port 3000
+[2025-07-18T14:07:24.488] [WARN] default - ::ffff:172.19.0.1 - - "GET /items HTTP/1.1" 304 - "" "undefined"
+[2025-07-18T14:07:36.211] [WARN] default - ::ffff:172.19.0.1 - - "GET /items HTTP/1.1" 304 - "" "undefined"
+[2025-07-18T15:36:41.201] [INFO] default - Server running on port 3000
+[2025-07-18T15:39:26.435] [WARN] default - ::ffff:172.19.0.1 - - "GET /items HTTP/1.1" 304 - "" "undefined"
+[2025-07-18T15:41:18.349] [INFO] default - ::ffff:172.19.0.1 - - "GET /items?name=same HTTP/1.1" 200 2 "" "undefined"
+[2025-07-18T15:41:31.371] [INFO] default - ::ffff:172.19.0.1 - - "GET /items/3 HTTP/1.1" 200 156 "" "undefined"
+[2025-07-18T15:41:49.319] [INFO] default - ::ffff:172.19.0.1 - - "GET /items/?description=This%20is%20a%20sample%20item. HTTP/1.1" 200 307 "" "undefined"
+[2025-07-18T15:41:58.828] [WARN] default - ::ffff:172.19.0.1 - - "GET /items/?description=This%20is%20a%20sample%20item. HTTP/1.1" 304 - "" "undefined"
+[2025-07-18T15:42:04.488] [INFO] default - ::ffff:172.19.0.1 - - "GET /items/?description=This%20is%20a%20sample%20item.%201 HTTP/1.1" 200 2 "" "undefined"
+[2025-07-18T15:42:13.059] [WARN] default - ::ffff:172.19.0.1 - - "GET /items/?description=This%20is%20a%20sample%20item. HTTP/1.1" 304 - "" "undefined"
