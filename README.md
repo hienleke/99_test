@@ -61,7 +61,7 @@ This document outlines the architecture for a real-time scoreboard system, desig
 
 ### 2. Architecture Diagram
 
-![System Design](system_design.png)
+![System Design](images/system_design.png)
 
 ### 3. Data Flow Execution
 1.  **Update Request:** The **Client** sends an authenticated `POST /api/score/update` request. The **Application Server** validates the user's token (e.g., JWT) to ensure they are authorized.
